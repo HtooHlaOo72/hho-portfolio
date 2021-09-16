@@ -2,3 +2,71 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+#moto {
+  color: #c2c2c2;
+}
+
+#home_text {
+  height: auto;
+  max-height: 100vh;
+  min-height: 500px;
+}
+#achieve_text {
+  height: auto;
+  max-height: 100vh;
+  min-height: 300px;
+}
+
+#profile_img {
+  border-radius: 50%;
+  max-height: 400px;
+  filter: grayscale(95%);
+}
+
+#navbar {
+  margin-left: -12px;
+  margin-right: -12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#loading {
+  font-size: 70px;
+  text-align: center;
+}
+#logo {
+  width: 150px;
+  height: 120px;
+}
+.skill-item {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.skill-icon {
+  font-size: 40px;
+}
+#profile-box {
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  #home_text {
+    height: auto;
+    max-height: 500px;
+    min-height: 300px;
+  }
+  #profile_img {
+    border-radius: 50%;
+    max-height: 300px;
+    filter: grayscale(95%);
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  #home_text {
+    height: auto;
+    max-height: 600px;
+    min-height: 350px;
+  }
+}
