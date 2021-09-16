@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = (props) => {
   return (
-    <div className="row bg-dark ">
+    <div className="row bg-dark " id="home">
       <div
         className="col-sm-6 col-md-6 col-12  bg-dark my-auto"
         id="profile-box"

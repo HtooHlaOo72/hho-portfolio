@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Achievements from "./Achievements";
 import Projects from "./Projects";
 import Skills from "./Skills";
-
+import Contact from "./Contact";
 class Box extends React.Component {
   render() {
     return (
@@ -17,6 +17,7 @@ class Box extends React.Component {
           <Achievements />
           <Skills />
           <Projects />
+          <Contact />
           <Footer />
         </div>
       </>

@@ -4,7 +4,7 @@ import Proj from "./Proj";
 
 const Projects = (props) => {
   return (
-    <div className="row bg-secondary">
+    <div className="row bg-secondary" id="projects">
       <h3 className="fw-bold ">My Own Works</h3>
       {projects.map((project, i) => (
         <div className="col-12 col-md-6 my-3 " key={i}>
