@@ -22,7 +22,7 @@ const Home = (props) => {
         <h3 className="fs-5 " id="moto">
           A Computer Science Student
           <br />
-          Currently learning "React" and "JS" to be a skillfull web developer.
+          Currently learning "React" and "Javascript" to fulfill my skills
         </h3>
       </div>
     </div>

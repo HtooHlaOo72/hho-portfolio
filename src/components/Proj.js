@@ -14,7 +14,12 @@ const Proj = (props) => {
         <p className="card-text">
           {props.content || "This is my project about something."}
         </p>
-        <a href={props.src} className="btn btn-light">
+        <a
+          href={props.src}
+          className="btn btn-light"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Project
         </a>
       </div>

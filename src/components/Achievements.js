@@ -10,22 +10,22 @@ const Achievements = (props) => {
       certi_description: "A python course from Sarlotepar Institute"
     },
     {
-      certi_src: "/images/Certificates/python_certificate.jpg",
+      certi_src: "/images/Certificates/udemy1.jpg",
       certi_label: "Python Basic",
       certi_description: "A python course from Sarlotepar Institute"
     },
     {
-      certi_src: "/images/Certificates/python_certificate.jpg",
+      certi_src: "/images/Certificates/udemy2.jpg",
       certi_label: "Python Basic",
       certi_description: "A python course from Sarlotepar Institute"
     },
     {
-      certi_src: "/images/Certificates/python_certificate.jpg",
+      certi_src: "/images/Certificates/udemy3.jpg",
       certi_label: "Python Basic",
       certi_description: "A python course from Sarlotepar Institute"
     },
     {
-      certi_src: "/images/Certificates/python_certificate.jpg",
+      certi_src: "/images/Certificates/udemy4.jpg",
       certi_label: "Python Basic",
       certi_description: "A python course from Sarlotepar Institute"
     }
@@ -55,22 +55,36 @@ const Achievements = (props) => {
       );
     });
 
-
-  const CarouselItems=(props)=>
-    certi.map((item,i)=>
-      <div key={i} className={(i===1)?'carousel-item active':'carousel-item'}>
-        <img
-          src={item.certi_src}
-          className="d-block w-100"
-          alt="..."
-        />
-        
+  const CarouselItems = (props) =>
+    certi.map((item, i) => (
+      <div
+        key={i}
+        className={i === 1 ? "carousel-item active" : "carousel-item"}
+      >
+        <img src={item.certi_src} className="d-block w-100" alt="..." />
       </div>
-      )
+    ));
   return (
     <div className="row bg-dark" id="achievements">
       <h3 className="fw-bold text-light py-3 ">Some courses I've learnt</h3>
-
+      <div className="col-12">
+        <div className="">
+          <a
+            className="btn btn-light my-3 border border-5 border-secondary w-100"
+            href="www.google.com"
+          >
+            Freecodecamp Frontend Libraries Certification
+          </a>
+        </div>
+        <div>
+          <a
+            className="btn btn-light my-3 border border-5 border-secondary w-100"
+            href="www.google.com"
+          >
+            Freecodecamp Javascript Algorithms and Data Structures Certification
+          </a>
+        </div>
+      </div>
       <div className="col-12 col-sm-6 d-flex flex-column justify-content-center mb-5">
         <div
           id="carouselExampleIndicators"
@@ -81,7 +95,7 @@ const Achievements = (props) => {
             <CarouselIndicators />
           </div>
           <div className="carousel-inner">
-           <CarouselItems />
+            <CarouselItems />
           </div>
           <button
             className="carousel-control-prev"
@@ -109,11 +123,14 @@ const Achievements = (props) => {
           </button>
         </div>
       </div>
-      <div className="col-12 col-sm-6 text-light d-flex flex-column justify-content-center mb-5" id='achieve_text'>
-        <h5 className='mb-5'>"How I become more progress" </h5>
-        <p className=''>
-          I learnt from freecodecamp, udemy, coursea,
-          Sarlotepar Institute and Turing Programming Trainning Center
+      <div
+        className="col-12 col-sm-6 text-light d-flex flex-column justify-content-center mb-5"
+        id="achieve_text"
+      >
+        <h5 className="mb-5">"My Study Resources" </h5>
+        <p className="">
+          I learnt from freecodecamp, udemy, coursea, Sarlotepar Institute and
+          Turing Programming Trainning Center
         </p>
       </div>
     </div>
