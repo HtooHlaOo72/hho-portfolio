@@ -17,7 +17,7 @@ export default function Skills() {
   return (
     <div className="row ">
       <div className="">
-        <h2>My Skills</h2>
+        <h2>Skillsets</h2>
       </div>
       <div className="col-4 my-3 skill-item">
         <span>HTML</span>

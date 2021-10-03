@@ -66,7 +66,7 @@ const Achievements = (props) => {
     ));
   return (
     <div className="row bg-dark" id="achievements">
-      <h3 className="fw-bold text-light py-3 ">Some courses I've learnt</h3>
+      <h3 className="fw-bold text-light py-3 ">Learning Path</h3>
       <div className="col-12">
         <div className="">
           <a
