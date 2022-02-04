@@ -28,6 +28,11 @@ const Achievements = (props) => {
       certi_src: "/images/Certificates/udemy4.jpg",
       certi_label: "Python Basic",
       certi_description: "A python course from Sarlotepar Institute"
+    },
+    {
+      certi_src: "/images/Certificates/mongo_certi.jpg",
+      certi_label: "MongoDB Basics",
+      certi_description: "MongoDB basic course from MongoDB University"
     }
   ];
 

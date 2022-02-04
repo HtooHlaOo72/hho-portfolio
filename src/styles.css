@@ -37,6 +37,9 @@
   width: 150px;
   height: 120px;
 }
+#itemNav {
+  color: white;
+}
 .skill-item {
   display: flex;
   font-size: 23px;

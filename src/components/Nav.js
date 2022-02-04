@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = (props) => {
   return (
-    <nav className="navbar navbar-light sticky-top py-0" id="navbar">
+    <nav className="navbar navbar-dark sticky-top py-0" id="navbar">
       <a className="navbar-brand" href="#home">
         <img src="/images/portfolio_logo.png" alt="portfolio" id="logo" />
       </a>
@@ -32,7 +32,7 @@ const Nav = (props) => {
           ></button>
         </div>
         <div className="offcanvas-body">
-          <ul className="navbar-nav ">
+          <ul className="navbar-nav" id="itemNav">
             <li className="nav-item">
               <a className="nav-link" href="#home">
                 Home
