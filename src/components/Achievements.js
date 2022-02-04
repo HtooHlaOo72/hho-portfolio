@@ -76,7 +76,7 @@ const Achievements = (props) => {
         <div className="">
           <a
             className="btn btn-light my-3 border border-5 border-secondary w-100"
-            href="www.google.com"
+            href="https://www.freecodecamp.org/certification/fccdc1e6b92-c5b6-4505-ae0f-4fd62dcff58b/front-end-development-libraries"
           >
             Freecodecamp Frontend Libraries Certification
           </a>
@@ -84,7 +84,7 @@ const Achievements = (props) => {
         <div>
           <a
             className="btn btn-light my-3 border border-5 border-secondary w-100"
-            href="www.google.com"
+            href="https://www.freecodecamp.org/certification/fccdc1e6b92-c5b6-4505-ae0f-4fd62dcff58b/javascript-algorithms-and-data-structures"
           >
             Freecodecamp Javascript Algorithms and Data Structures Certification
           </a>
